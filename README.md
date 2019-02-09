@@ -4,9 +4,12 @@ This is the sixth project of the Treehouse TechDegree.
 
 In this project a portfolio website is built using Node.js, Express and Pug.
 
-## Libraries used
+## Dependencies
 
-- [jQuery](https://code.jquery.com/jquery-3.3.1.min.js) - jQuery 3.3.1
+- Express
+- Pug
+- Cookie-parser
+- Body-parser
 
 ## Styles changed
 

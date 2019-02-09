@@ -1,0 +1,73 @@
+{
+
+  "projects":[
+      {"id": 0,
+       "project_name": "A Random Quote Generator",
+       "description": "An app that displays random famous quotes each time a button is clicked",
+       "technologies": [
+         "JavaScript", "HTML", "CSS"
+       ],
+       "live_link": "https://roypoe.github.io/treehouse-project-1/",
+       "github_link": "https://github.com/Roypoe/treehouse-project-1.git",
+       "image_urls": [
+         "../public/images/p1_square.png", "../public/images/p1_long1.png","../public/images/p1_long2.png"
+       ]
+      },
+      {"id": 1,
+       "project_name": "List Pagination and Filtering",
+       "description": " Adding pagination and filtering to a list using plain JS",
+       "technologies": [
+         "JavaScript", "HTML", "CSS"
+       ],
+       "live_link": "https://roypoe.github.io/treehouse-project-2/",
+       "github_link": "https://github.com/Roypoe/treehouse-project-2.git",
+       "image_urls": [
+         "../public/images/p2_square.png", "../public/images/p2_long1.png","../public/images/p2_long2.png"
+       ]},
+      {"id": 2,
+       "project_name": "Interactive Form",
+       "description": "Adding form validation and interactivity to a web form",
+       "technologies": [
+         "JavaScript", "HTML", "CSS", "jQuery"
+       ],
+       "live_link": "https://roypoe.github.io/treehouse-project-3/",
+       "github_link": "https://github.com/Roypoe/treehouse-project-3.git",
+       "image_urls": [
+         "../public/images/p1_square.png", "../public/images/p1_long1.png","../public/images/p1_long2.png"
+       ]},
+      {"id": 3,
+       "project_name": "OOP Game Show App",
+       "description": "A browser based game called 'Phrase Hunter'",
+       "technologies": [
+         "JavaScript", "HTML", "CSS", "jQuery", "OOP"
+       ],
+       "live_link": "https://roypoe.github.io/treehouse-project-4/",
+       "github_link": "https://github.com/Roypoe/treehouse-project-4.git",
+       "image_urls": [
+         "../public/images/p3_square.png", "../public/images/p3_long1.png","../public/images/p3_long2.png"
+       ]},
+      {"id": 4,
+       "project_name": "Public API Requests",
+       "description": "An app that displays random employees by requesting a JSON object from a public API",
+       "technologies": [
+         "JavaScript", "HTML", "CSS", "jQuery", "Ajax"
+       ],
+       "live_link": "https://roypoe.github.io/treehouse-project-5/",
+       "github_link": "https://github.com/Roypoe/treehouse-project-5.git",
+       "image_urls": [
+         "../public/images/p4_square.png", "../public/images/p4_long1.png","../public/images/p4_long2.png"
+       ]},
+      {"id": 5,
+       "project_name": "AVALA",
+       "description": "An App that facilitates course management",
+       "technologies": [
+         "JavaScript", "HTML", "CSS", "jQuery"
+       ],
+       "live_link": "https://avala-app.com",
+       "github_link": "",
+       "image_urls": [
+         "../public/images/pAvala_square.png", "../public/images/pAvala_long1.png","../public/images/pAvala_long2.png"
+       ]}
+  ]
+
+}
