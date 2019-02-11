@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false}));
 
 app.set('view engine', 'pug');
-app.use(express.static('public'));
+app.use('/static', express.static('public'));
 
 app.get("/", function(req, res, next){
   res.render('index', {projects});
@@ -29,4 +29,6 @@ app.get("/project/:id", function(req, res, next){
 })
 
 
-app.listen(3000)
+app.listen(3000, function (){
+ console.log('The App is listening to port 3000')
+})
