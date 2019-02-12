@@ -8,7 +8,6 @@ In this project a portfolio website is built using Node.js, Express and Pug.
 
 - Express
 - Pug
-- Cookie-parser
 - Body-parser
 
 ## Styles changed

@@ -20,7 +20,7 @@ block content
             li #{skill}
 
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(href=`${project.live_link}`) Live Demo
+        a.button.expanded(href=`${project.live_link}` target='to _blank') Live Demo
         a.button.expanded(href=`${project.github_link}`) GitHub Repo
 
     img.image(src=`/static/${project.image_urls[1]}`)

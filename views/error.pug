@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+  h1 Ups, something strange happened
+
+  h2 Error message:
+  | #{error.message}
+
+  h2 Error status:
+  | #{error.status}
+
+  h2 Error stack:
+  | #{error.stack}
+
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
