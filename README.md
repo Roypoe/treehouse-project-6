@@ -12,8 +12,14 @@ In this project a portfolio website is built using Node.js, Express and Pug.
 
 ## Styles changed
 
-
+- BG to white, sidebar BG to grey
+- Project overview and images with filter drop-shadow
+- Sidebar h5 darkgrey text-color
+- Font changed to Inconsolata
 
 ## Other changes
 
--
+- Added project specific error message
+- Added error page
+- npm start - runs app.js
+- All links got target blank 

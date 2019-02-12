@@ -1,16 +1,18 @@
 extends layout.pug
 
 block content
-  h1 Ups, something strange happened
+    nav.grid-container.portfolio-breadcrumb
+      a(href='/') ← Back
 
-  h2 Error message:
-  | #{error.message}
+    #error
 
-  h2 Error status:
-  | #{error.status}
+      h2 Ups, something strange happened
 
-  h2 Error stack:
-  | #{error.stack}
+      h3 Error message:
+      p #{error.message}
 
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+      h3 Error status:
+      p #{error.status}
+
+      h3 Error stack:
+      p #{error.stack}

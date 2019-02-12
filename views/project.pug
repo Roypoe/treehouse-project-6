@@ -19,9 +19,8 @@ block content
           each skill in project.technologies
             li #{skill}
 
-        //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(href=`${project.live_link}` target='to _blank') Live Demo
-        a.button.expanded(href=`${project.github_link}`) GitHub Repo
+        a.button.expanded(href=`${project.live_link}`, target='_blank') Live Demo
+        a.button.expanded(href=`${project.github_link}`, target='_blank') GitHub Repo
 
     img.image(src=`/static/${project.image_urls[1]}`)
     img.image(src=`/static/${project.image_urls[2]}`)
