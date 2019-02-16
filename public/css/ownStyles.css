@@ -37,3 +37,10 @@ h1,h2,h3,h4,h5,p{
 .portfolio-index .cell a, .portfolio-project img{
   filter: drop-shadow(0 0 5px grey);
 }
+
+.portfolio-index .thumbnail{
+  transition: all .5s;
+}
+.portfolio-index .thumbnail:hover{
+  transform: scale(1.05);
+}

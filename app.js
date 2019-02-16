@@ -29,7 +29,7 @@ app.get("/project/:id", function(req, res, next){
 
   // check if project page has valid ID else throw specific project page error
   if(Number.isInteger(pro) && pro < projects.length && pro >= 0){
-    res.render('project',{project});
+    return res.render('project',{project});
   } else{
     let err = new Error("This project page doesn't exist");
     next(err);
